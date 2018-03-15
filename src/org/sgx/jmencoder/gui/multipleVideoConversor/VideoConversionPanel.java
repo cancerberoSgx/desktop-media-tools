@@ -64,7 +64,7 @@ public class VideoConversionPanel extends JPanel {
 						MencoderExecutorImpl.execute(
 								cmd, new ExecutorListener() {
 									public void notifyEnd(EndExecutionInformation endExecutionInformation) {
-										JOptionPane.showMessageDialog(VideoConversionPanel.this, "... y esta canción, se terminó, tutu...");
+										JOptionPane.showMessageDialog(VideoConversionPanel.this, "... and the song ends");
 									}
 									public void notifyError(String str) {
 										System.out.println(str);
